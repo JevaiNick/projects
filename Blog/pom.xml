@@ -9,15 +9,6 @@
     <version>1.0</version>
     <build>
         <plugins>
-            <!--            <plugin>-->
-            <!--                <groupId>org.liquibase</groupId>-->
-            <!--                <artifactId>liquibase-maven-plugin</artifactId>-->
-            <!--                <version>4.2.2</version>-->
-            <!--                <configuration>-->
-            <!--                    <propertyFile>src/core/resources/liquibase-maven-plugin.properties</propertyFile>-->
-            <!--                    <outputChangeLogFile>src/core/resources/db/changelog/change-log.xml</outputChangeLogFile>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -140,12 +131,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
-
-        <!--        <dependency>-->
-        <!--            <groupId>org.liquibase</groupId>-->
-        <!--            <artifactId>liquibase-core</artifactId>-->
-        <!--        </dependency>-->
-
         <dependency>
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
